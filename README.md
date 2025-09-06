@@ -25,3 +25,43 @@ This repository demonstrates techniques and best practices for ETL, data process
 ---
 
 ## 📂 Project Structure
+dataengineering-python/
+│── structured/ # Scripts for structured data (CSV, JSON, SQL)
+│── unstructured/ # Scripts for text, PDF, image processing
+│── etl/ # ETL workflows and automation
+│── notebooks/ # Jupyter Notebooks for demos and experiments
+│── utils/ # Helper functions and utilities
+│── README.md # Project documentation
+
+
+---
+
+## ⚡ Installation
+Clone this repository:
+```bash
+git clone https://github.com/<your-username>/dataengineering-python.git
+cd dataengineering-python
+
+Create a virtual environment and install dependencies:
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+📘 Usage
+Run a script:
+python structured/csv_to_sql.py
+
+Use Jupyter Notebook:
+jupyter notebook notebooks/
+🌱 Contribution
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+📜 License
+This project is licensed under the MIT License – feel free to use and adapt.
+
+👤 Author
+Adnan Ali
+💼 Data Engineer | BI Consultant | Cloud Analytics
+
+🌐 LinkedIn | GitHub
